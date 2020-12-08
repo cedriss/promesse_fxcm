@@ -1,0 +1,28 @@
+{
+  "run_mode": "dry",
+  "heartbeat": 1,
+  "timeframe": ["15m", "1h"],
+  "exchange": {
+    "fxcm": {
+      "token": "6410e2c129b186b8eda1902dab8863f3bd3558f2"
+    }
+  },
+  "symbol_list": [
+    "EUR/USD",
+    "USD/JPY",
+    "GBP/USD",
+    "USD/CHF",
+    "AUD/USD",
+    "USD/CAD",
+    "NZD/USD",
+    "EUR/GBP",
+    "EUR/JPY",
+    "EUR/CHF",
+    "EUR/CAD"
+  ],
+  "initial_capital": 10000,
+  "telegram": {
+    "bot_token": "840920583:AAGZ84jmH9g8E_mQHW71q9LoRKZh4Y7pj4g",
+    "channel_id": "@promesse_trading_engine_fxeqc"
+  }
+}
